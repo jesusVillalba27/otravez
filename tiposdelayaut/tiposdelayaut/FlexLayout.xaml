@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tiposdelayaut.FlexLayout"
+             Title="FlexLayout">
+    
+    <FlexLayout Direction="Row" JustifyContent="SpaceAround" Padding="20">
+        <Label Text="Item 1" BackgroundColor="LightGray" WidthRequest="100" HeightRequest="50" />
+        <Label Text="Item 2" BackgroundColor="LightGray" WidthRequest="100" HeightRequest="50" />
+        <Label Text="Item 3" BackgroundColor="LightGray" WidthRequest="100" HeightRequest="50" />
+    </FlexLayout>
+</ContentPage>

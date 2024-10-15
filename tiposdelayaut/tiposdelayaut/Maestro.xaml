@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tiposdelayaut.Maestro"
+             Title="Layout Examples"
+             BackgroundColor="#f0f4f8">
+
+    <ContentPage.Content>
+        <Grid Padding="20" RowDefinitions="Auto, *">
+            <!-- Título de la página -->
+            <Label Text="Escoge un tipo de Layout"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   TextColor="#333"
+                   Grid.Row="0" />
+
+            <!-- Botones -->
+            <VerticalStackLayout Spacing="15" Padding="10" VerticalOptions="Center" Grid.Row="1">
+
+                <!-- Botón 1: StackLayout -->
+                <Button Text="StackLayout"
+                        Clicked="GotoStackLayoutpage"
+                        BackgroundColor="#4caf50"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="18"
+                        Padding="15" />
+
+                <!-- Botón 2: Grid -->
+                <Button Text="Grid"
+                        Clicked="GotoGridpage"
+                        BackgroundColor="#2196f3"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="18"
+                        Padding="15" />
+
+                <!-- Botón 3: FlexLayout -->
+                <Button Text="FlexLayout"
+                        Clicked="GotoFlexLayoutpage"
+                        BackgroundColor="#ff9800"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="18"
+                        Padding="15" />
+
+                <!-- Botón 4: AbsoluteLayout -->
+                <Button Text="AbsoluteLayout"
+                        Clicked="GotoAbsoluteLayoutpage"
+                        BackgroundColor="#f44336"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="18"
+                        Padding="15" />
+
+                <!-- Botón 5: ContentView -->
+                <Button Text="ContentView"
+                        Clicked="GotoContentViewpage"
+                        BackgroundColor="#9c27b0"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="18"
+                        Padding="15" />
+
+                <!-- Botón 6: ScrollView -->
+                <Button Text="ScrollView"
+                        Clicked="GotoScrollViewpage"
+                        BackgroundColor="#3f51b5"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="18"
+                        Padding="15" />
+
+                <!-- Botón 7: CollectionView -->
+                <Button Text="CollectionView"
+                        Clicked="GotoCollectionViewpage"
+                        BackgroundColor="#ff5722"
+                        TextColor="White"
+                        CornerRadius="20"
+                        FontSize="18"
+                        Padding="15" />
+
+               
+
+            </VerticalStackLayout>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

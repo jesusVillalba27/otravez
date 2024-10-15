@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tiposdelayaut.CollectionView"
+             Title="CollectionView">
+    <Grid Padding="20">
+        <!-- Texto de título general -->
+        <Label Text="Explore Items"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#333"
+               Margin="0,10" />
+
+        <!-- CollectionView con items en tarjetas -->
+        <CollectionView ItemsSource="{Binding Items}"
+                        SelectionMode="Single"
+                        Grid.Row="1"
+                        Margin="0,20">
+            <CollectionView.ItemsLayout>
+                <!-- Diseño de lista vertical con espaciado -->
+                <GridItemsLayout Orientation="Vertical" Span="2" VerticalItemSpacing="20" HorizontalItemSpacing="20" />
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="15" Padding="15" BackgroundColor="White" HasShadow="True">
+                        <VerticalStackLayout>
+                            <!-- Imagen representativa del item -->
+                            <Image Source="{Binding Image}" 
+                                   HeightRequest="100" 
+                                   WidthRequest="100"
+                                   HorizontalOptions="Center" />
+
+                            <!-- Nombre del item -->
+                            <Label Text="{Binding Name}" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   TextColor="#333"
+                                   HorizontalOptions="Center"
+                                   Margin="10,0" />
+
+                            <!-- Descripción o información adicional -->
+                            <Label Text="{Binding Description}" 
+                                   FontSize="14" 
+                                   TextColor="White"
+                                   HorizontalTextAlignment="Center"
+                                   VerticalOptions="CenterAndExpand" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+</ContentPage>

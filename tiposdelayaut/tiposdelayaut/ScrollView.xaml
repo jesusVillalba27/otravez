@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tiposdelayaut.ScrollView"
+             Title="ScrollView">
+    
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="10">
+            <Label Text="ScrollView Example" FontSize="Large" FontAttributes="Bold" />
+            <!-- Repeat content for scrolling effect -->
+            <Label Text="Item 1" />
+            <Label Text="Item 2" />
+            <Label Text="Item 3" />
+            <Label Text="Item 4" />
+            <Label Text="Item 5" />
+            <!-- Continue as needed -->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

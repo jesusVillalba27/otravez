@@ -1,0 +1,107 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = tiposdelayaut
+build_property.ProjectDir = C:\Users\Jesus Daniel\Desktop\tiposdelayaut\tiposdelayaut\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/AbsoluteLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.AbsoluteLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = AbsoluteLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = AbsoluteLayout.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/CollectionView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.CollectionView.xaml
+build_metadata.AdditionalFiles.TargetPath = CollectionView.xaml
+build_metadata.AdditionalFiles.RelativePath = CollectionView.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/ContentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.ContentView.xaml
+build_metadata.AdditionalFiles.TargetPath = ContentView.xaml
+build_metadata.AdditionalFiles.RelativePath = ContentView.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/Detalle.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.Detalle.xaml
+build_metadata.AdditionalFiles.TargetPath = Detalle.xaml
+build_metadata.AdditionalFiles.RelativePath = Detalle.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/FlexLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.FlexLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = FlexLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = FlexLayout.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/Grid.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.Grid.xaml
+build_metadata.AdditionalFiles.TargetPath = Grid.xaml
+build_metadata.AdditionalFiles.RelativePath = Grid.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/Inicial.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.Inicial.xaml
+build_metadata.AdditionalFiles.TargetPath = Inicial.xaml
+build_metadata.AdditionalFiles.RelativePath = Inicial.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/Maestro.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.Maestro.xaml
+build_metadata.AdditionalFiles.TargetPath = Maestro.xaml
+build_metadata.AdditionalFiles.RelativePath = Maestro.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/ScrollView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.ScrollView.xaml
+build_metadata.AdditionalFiles.TargetPath = ScrollView.xaml
+build_metadata.AdditionalFiles.RelativePath = ScrollView.xaml
+
+[C:/Users/Jesus Daniel/Desktop/tiposdelayaut/tiposdelayaut/StackLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = tiposdelayaut.StackLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = StackLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = StackLayout.xaml

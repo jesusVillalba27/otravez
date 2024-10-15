@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="tiposdelayaut.AbsoluteLayout"
+             Title="AbsoluteLayout">
+
+
+    <AbsoluteLayout Padding="20">
+        <!-- Frame con imagen y texto en la parte superior izquierda -->
+        <Frame AbsoluteLayout.LayoutBounds="0, 0, 150, 150"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               BackgroundColor="#03A9F4"
+               CornerRadius="15"
+               HasShadow="True">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Image Source="top_left_image.png" 
+                       HeightRequest="60" 
+                       WidthRequest="60" />
+                <Label Text="Top Left"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontAttributes="Bold"/>
+            </VerticalStackLayout>
+        </Frame>
+
+        <!-- Frame con imagen y texto en el centro -->
+        <Frame AbsoluteLayout.LayoutBounds="0.5, 0.5, 150, 150"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               BackgroundColor="#8BC34A"
+               CornerRadius="15"
+               HasShadow="True">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Image Source="center_image.png" 
+                       HeightRequest="60" 
+                       WidthRequest="60" />
+                <Label Text="Center"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontAttributes="Bold"/>
+            </VerticalStackLayout>
+        </Frame>
+
+        <!-- Frame con imagen y texto en la parte inferior derecha -->
+        <Frame AbsoluteLayout.LayoutBounds="1, 1, 150, 150"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               BackgroundColor="#FF5722"
+               CornerRadius="15"
+               HasShadow="True">
+            <VerticalStackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Image Source="bottom_right_image.png" 
+                       HeightRequest="60" 
+                       WidthRequest="60" />
+                <Label Text="Bottom Right"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       TextColor="White"
+                       FontAttributes="Bold"/>
+            </VerticalStackLayout>
+        </Frame>
+
+    </AbsoluteLayout>
+</ContentPage>
